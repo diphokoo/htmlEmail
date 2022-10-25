@@ -44,6 +44,11 @@
         a.socialMedia {
             padding: 5px;
             text-decoration: none;
+            color: #289dcf;
+        }
+
+        a.socialMedia:hover {
+            color: red;
         }
 
         .two-columns {
@@ -56,6 +61,15 @@
             display: inline-block;
             vertical-align: top;
         }
+
+        .button {
+            background-color: #289dcf;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -65,7 +79,7 @@
                 <td height="8" style="background-color: #289dcf;">
                 </td>
             </tr>
-    <!--Logo section-->
+            <!--Logo section-->
             <tr>
                 <td style="padding: 14px 0 4px;">
                     <table width="100%">
@@ -108,14 +122,29 @@
                 </td>
             </tr>
 
-    <!-- Banner Image -->
-    <tr>
-        <td>
-            <a href="#">
-                <img src="./images/1738.jpg" alt="" width="600" style="max-width: 100%;">
-            </a>
-        </td>
-    </tr>
+            <!-- Banner Image -->
+            <tr>
+                <td>
+                    <a href="#">
+                        <img src="./images/1738.jpg" alt="" width="600" style="max-width: 100%;">
+                    </a>
+                </td>
+            </tr>
+            <!--Title, Text & Button-->
+            <tr>
+                <td style="padding: 5px 0 50px">
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; padding: 15px;">
+                                <p style="font-size: 20px;font-weight: bold;">HTML Email Template <strong style="color:#289dcf">Course</strong></p>
+                                <p style="font-size: 15px; line-height: 23px; padding: 5px 0 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium perferendis neque corporis pariatur fuga quod ducimus quisquam debitis quae non porro quidem nesciunt quam, impedit doloremque repellendus ad, quasi veritatis?</p>
+                                <a href="#" class="button">View Course</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
         </table>
     </center>
 </body>
